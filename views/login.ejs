@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../public/project.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyL/HbYabuL4paMZh1klC5CgL9ZN2u6I8Z" crossorigin="anonymous">
+   
+</head>
+<body class="bg-dark"> 
+
+    <form class="row g-3 transparent-form" action="/login" method="post">
+        <legend class="form-title text-light"><h1>Login Form</h1></legend>
+
+        <div class="col-md-6"> 
+            <label for="inputEmail4" class="form-label text-light">Email</label>
+            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="abc123@gmail.com">
+        </div>
+
+        <div class="col-md-6"> 
+            <label for="inputPassword4" class="form-label text-light">Password</label>
+            <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="..........">
+        </div>
+
+        <div class="col-md-12"> 
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label text-light" for="gridCheck">
+                    Check me out
+                </label>
+            </div>
+        </div>
+
+        <div class="col-md-12"> <!-- Full width for submit button -->
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
